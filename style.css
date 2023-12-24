@@ -1,0 +1,362 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: F5F8FA;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  /* .main-container {
+    width: 100vw;
+    height: 100%;
+  } */
+  header {
+    padding-bottom: 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    border-bottom: 1px solid rgb(203, 201, 201);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: end;
+  }
+
+  .nav-links .btn {
+    width: 91px;
+    height: 27px;
+    border-radius: 4px;
+    border: 2px solid grey;
+  }
+  .nav-links li {
+    padding: 8px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    padding-bottom: -20px;
+  }
+
+   .checkout, .pricing {
+    display: flex;
+    flex-direction: column; 
+    height: 100%; 
+  }
+
+  .checkout {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer .stripelogo {
+    display: block;
+    width: 20%;
+    align-items: center;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+
+  .section-header .step {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #f5f6f7;
+    color: #548BC5;
+    border:1px solid #548BC5;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .pricing {
+    background: #1179BF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+
+  .name-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+  }
+
+  section {
+    height: 238px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    padding: 15px; 
+  }
+
+  input, label {
+    display: block;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+  }
+  label {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0; 
+  width: calc(100% - 22px);
+}
+
+
+.help-icon {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 50%;
+    background-color: #f5f6f7;
+    color: #548BC5;
+    border: 1px solid #548BC5;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+
+  .button {
+    background-color: #249D6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .pricing h3, .pricing p {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  
+  .pricing li:first-child {
+    border-top: none;
+  }
+
+  .pricing ul {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .pricing li {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  
+  .pricing li::before {
+    content: '\f058'; 
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900; 
+    position: absolute;
+    left: 0;
+  }
+
+  .pricing .sidebar{
+    padding: 125px 80px 0 5% ;
+  }
+
+  sup {
+    font-size: 15px;
+  }
+
+  .plan .year{
+    font-size: 35px;
+  }
+
+  .sites {
+    font-size: 13px;
+  }
+
+  .plan span {
+  font-size: 15px;
+  }
+
+  .plan .renew {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  .duty {
+    font-size: 15px;
+  }
+
+  #switch{
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  #switch u {
+    border-bottom: 2px solid #1179BF;
+  }
+
+  blockquote {
+    font-style: italic;
+    border-top:1px solid #FFFFFF ;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .quote {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 10px ;
+    padding-bottom: 5px;
+    margin-top: 20px;
+
+  }
+
+  blockquote #footer {
+    display: flex;
+    text-align: right;
+    font-style: normal;
+    padding-top: 15px;
+  }
+  
+  blockquote #footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  blockquote #footer p {
+    font-size: 10px;
+  }
+
+  footer {
+    text-align: center;
+    color: #a0a0a0; 
+    padding: 20px 0; 
+    font-size: 14px; 
+    padding-top: 50px;
+  }
+
+  @media only screen and  (max-width: 768px) {
+    nav {
+        padding: 10px;
+      }
+
+      .nav-links li {
+        padding: 4px;
+      }
+
+      #logo {
+        width: 5rem;
+        height: 3rem;
+      }
+  }
+
+  @media (max-width: 480px) {
+    nav {
+        padding: 7px;
+      }
+
+      .nav-links li {
+        padding: 3px;
+      }
+
+      #logo {
+        width: 5rem;
+        height: 2.5rem;
+      }
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin-left: 5px;
+        padding-left: 5px;
+      }
+
+      label {
+        margin-top: 15px;
+        margin-left: 7px;
+        font-weight: bold;
+        font-size: 12px;
+      }
+
+      .button {
+        padding: 5px 20px;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+  }
+
+  .footer p {
+    font-size: 10px;
+  }
+
+  .help-icon {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    margin-left: 8px;
+  }
+
+  .footer .stripelogo {
+    width: 40%;
+  }
+
+  }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Recursive:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+      <header>
+        <nav>
+          <img id="logo" src="./images/wppusher-logo .png" alt="WP Pusher Logo">
+          <ul class="nav-links">
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Learn More</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Help</a></li>
+            <li><button class="btn">Account</button></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class="container">
+        <div class="checkout">
+          <h2>Checkout</h2>
+          <form>
+            <!-- Section 1: Your Basic Information -->
+            <section aria-labelledby="basic-info-header">
+              <div class="section-header" id="basic-info-header">
+                <span class="step">1</span>
+                <h3>Your Basic Information</h3>
+              </div>
+              <div class="name-fields">
+                <label for="first-name">First Name</label>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="first-name" placeholder="First Name">
+                <input type="text" id="last-name" placeholder="Last Name">
+              </div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Email">
+            </section>
+          
+            <!-- Section 2: Your Payment Information -->
+            <section aria-labelledby="payment-info-header">
+              <div class="section-header" id="payment-info-header">
+                <span class="step">2</span>
+                <h3>Your Payment Information</h3>
+              </div>
+              <label for="card-number">Credit Card Number</label>
+              <input type="text" id="card-details" placeholder="Card Number           MM/YY   CVC">
+            </section>
+          
+            <button class="button" type="submit">Buy WP Pusher</button>
+            <div class="footer">
+              <p>
+                <span class="help-icon">?</span>
+                Need any help? Don't hesitate to <u>contact   </u> support!
+              </p>
+              <img class="stripelogo" src="./images/Stripe.svg" alt="stripe">
+            </div>
+          </form>
+        </div>
+        
+        <div class="pricing">
+         <div class="sidebar">
+          <div class="plan">
+            <h3>Freelancer</h3>
+            <p class="year"><sup>$</sup> 99 <span>/ year</span></p>
+            <p class="renew">Automatically renews <br> after 1 year</p>
+          </div>
+          <ul class="duty">
+            <li>Use on 5 client's site</li>
+            <li>Private repositories</li>
+            <li>Email support</li>
+          </ul>
+
+          <div class="sites">
+            <p>Need 20 clients sites?</p>
+            <p id="switch"><u>Switch to the Agency plan.</u></p>
+          </div>
+
+          <blockquote>
+            <div class="quote">
+                FTP is horrible to deal with. WP Pusher solves that issue, and the customer support is awesome!
+            </div>
+            <div id="footer">
+                <img src="./images/Bitmap.png" alt="Bitmap">
+                <p>Kirk Beard</p>
+            </div>
+          </blockquote>
+         </div>
+        </div>
+      </div>
+      <footer>
+        <p>© 2018 WP Pusher IVS  ·  Terms of Service</p>
+      </footer>
+    </div>
+</body>
+</html>
